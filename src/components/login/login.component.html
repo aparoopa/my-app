@@ -1,0 +1,15 @@
+<div *ngIf="router.url  == '/'" class="loginpopup">
+<div class="loginpopupinternal">
+<label>Please select a user from the list provided below:</label>
+<select [(ngModel)]="selectedOption">
+<option  >Select User</option>
+<option *ngFor="let user of userlist">{{user.id}}</option>
+</select>
+<p>{{num}}</p>
+<button (click)='Proceed(selectedOption)'> Proceed</button>
+<p>{{errorMsg}}</p>
+
+</div>
+</div>
+<router-outlet></router-outlet>
+

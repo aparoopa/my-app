@@ -1,0 +1,14 @@
+.main_nav_dot {
+    margin: -5px 2px 0 26px;
+    list-style-type: disc;
+    font-size: 20px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+ .navbar-light .navbar-nav .nav-link {
+    color: red;
+	font:bold;
+	margin-left:150px;
+}

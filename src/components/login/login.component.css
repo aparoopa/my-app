@@ -1,0 +1,48 @@
+button {
+     background-color: red;
+	 border: 1px solid black;
+    margin-top: 50px;
+	display:block;
+	float: right;
+	 }
+div  {
+    border: 1px solid #e1e1e1;
+	width: 650px;
+	height: 100px;
+    padding: 10px;
+    margin: 50px;
+	float:middle;
+	
+	 }
+option
+{
+	width: 50px;
+	height: 26px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #dfdfdf;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) inset, 2px 2px 13px rgba(0, 0, 0, 0.12) inset;
+    font: 11px Verdana;
+}	 
+	 
+.loginpopup{	
+	position: fixed;
+    background: #99cccc;
+    width: 420px;
+    height: 200px;
+    opacity: 0.9;
+    filter: alpha(opacity=50);
+    border-radius: 10px;
+    margin: -10px 10px 10px -10px;
+    vertical-align: center;
+    top: 25%;
+    left: 25%;
+}	
+.loginpopupinternal {
+    position: fixed;
+    background: #fff;
+    width: 380px;
+    height: 160px;
+    border-radius: 14px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+}	

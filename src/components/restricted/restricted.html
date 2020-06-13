@@ -1,0 +1,27 @@
+ <html>
+<body>
+<div class="container">
+<div class = "row">
+<div class="overlay RoleSelection" >
+				<div class="overlayInside ">
+					<h1>
+						
+				     Welcome {{userid.id}}
+					</h1>
+					<div class="col-sm-8 ">
+						<p appRedblack>Pursuant to Medical Segment policy, the sales and marketing
+							functions for Cardinal Health branded products are restricted
+							from accessing national brand pricing and other proprietary
+							information in company systems.</p>
+						<p>Select &ldquo;Yes&rdquo; if you are in a Cardinal Health
+							branded product sales or marketing function. All other employees,
+							select &ldquo;No.&rdquo;</p>
+					</div>
+					<!-- <button class="button small  redBtn"   id="accessYes" ng-click="userRestricted('Yes')">Yes (I am restricted)</button> -->
+					<button class="button small  downloadButton "  id="accessNo" (click)='NotRestricted()'>No (I am not restricted)</button>
+				</div>
+</div>
+</div>
+</div>			
+</body>
+</html>
